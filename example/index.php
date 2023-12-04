@@ -1,13 +1,22 @@
 <?php 
-# Dont remove this module! This will check if the module system is working.
+#
+#  _   _ _____ ____ _____ _____  _____ ____ 
+# | \ | | ____|  _ \_   _/ _ \ \/ /_ _/ ___|
+# |  \| |  _| | |_) || || | | \  / | | |    
+# | |\  | |___|  _ < | || |_| /  \ | | |___ 
+# |_| \_|_____|_| \_\|_| \___/_/\_\___\____|
+#
+#
 
 # --------------------------------------------------------------------
 # Module: example
 # Creator: Nertoxic
-# Desc: This module is for testing the module system, go to https://domain.com/test/modules to see if the modules are working
+# Desc: This module is just to show you how it goes
 # --------------------------------------------------------------------
 
+$moduleIsActive = false;
 
-$nicModuleOutput_example = true;
-
+if($moduleIsActive == true) {
+    include MODULE_PATH.'example/code.php';
+}
 ?>
