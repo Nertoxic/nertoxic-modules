@@ -6,3 +6,6 @@ Here you got a bunch of Nertoxic Developers which can double check a module for 
 
 ## Please read:
 Every module needs to be builded up like the example one, all modules that doesnt contain a index.php (with a variable to disallow code inclusion) and a code.php will be removed
+
+
+Please read: https://flakes-1.gitbook.io/nertoxic/nic/modules for more informations.
